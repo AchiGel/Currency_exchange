@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f6f6f677;
+  background-image: url(./icons/Ellipse\ 2.svg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding-inline: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin-top: 40px;
+  margin-bottom: 41px;
+}
+
+header h1 {
+  color: #1f2261;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #808080;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  max-width: 350px;
+}
+
+.main h2 {
+  color: #989898;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+
+.main form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form label {
+  margin-right: 13px;
+}
+
+label img {
+  width: 100%;
+}
+
+.main select {
+  color: #26278d;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 16px;
+}
+
+form input {
+  padding: 11px 14px 11px 0px;
+  text-align: right;
+  border-radius: 7px;
+  background: #efefef;
+  border: none;
+  outline: none;
+  color: #3c3c3c;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  max-width: 150px;
+}
+
+.exchange button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+}
+
+footer h3 {
+  color: #a1a1a1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 13px;
+}
+
+footer p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

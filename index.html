@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Exchange</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./icons/exchange.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Currency Converter</h1>
+        <p>
+          Check live rates, set rate alerts, receive notifications and more.
+        </p>
+      </header>
+      <section class="main">
+        <div class="from">
+          <h2>Amount</h2>
+          <div id="from-card" class="currency-card from">
+            <form>
+              <label for="currency"
+                ><img src="./icons/flag-1.svg" alt=""
+              /></label>
+              <select class="currency" name="currency"></select>
+              <input id="fromInput" type="number" />
+            </form>
+          </div>
+        </div>
+        <div class="exchange">
+          <button><img src="./icons/icon_exchange.svg" alt="" /></button>
+        </div>
+        <div class="to">
+          <h2>Converted Amount</h2>
+          <div id="to-card" class="currency-card to">
+            <form>
+              <label for="currency"
+                ><img src="./icons/flag-1.svg" alt=""
+              /></label>
+              <select class="currency" name="currency"></select>
+              <input id="toInput" type="number" />
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <h3>Indicative Exchange Rate</h3>
+        <p>
+          1 <span id="from-this">SGD</span> =
+          <span id="exchange-rate">1</span>
+          <span id="to-this">SGD</span>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
